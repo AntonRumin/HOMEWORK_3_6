@@ -1,0 +1,15 @@
+C:\Users\anton\Documents\GEEK BRAINS\Work_GIT\HOMEWORK_3_6\task41_MoreThanZero\bin\Debug\net6.0\task41_MoreThanZero.exe
+C:\Users\anton\Documents\GEEK BRAINS\Work_GIT\HOMEWORK_3_6\task41_MoreThanZero\bin\Debug\net6.0\task41_MoreThanZero.deps.json
+C:\Users\anton\Documents\GEEK BRAINS\Work_GIT\HOMEWORK_3_6\task41_MoreThanZero\bin\Debug\net6.0\task41_MoreThanZero.runtimeconfig.json
+C:\Users\anton\Documents\GEEK BRAINS\Work_GIT\HOMEWORK_3_6\task41_MoreThanZero\bin\Debug\net6.0\task41_MoreThanZero.dll
+C:\Users\anton\Documents\GEEK BRAINS\Work_GIT\HOMEWORK_3_6\task41_MoreThanZero\bin\Debug\net6.0\task41_MoreThanZero.pdb
+C:\Users\anton\Documents\GEEK BRAINS\Work_GIT\HOMEWORK_3_6\task41_MoreThanZero\obj\Debug\net6.0\task41_MoreThanZero.csproj.AssemblyReference.cache
+C:\Users\anton\Documents\GEEK BRAINS\Work_GIT\HOMEWORK_3_6\task41_MoreThanZero\obj\Debug\net6.0\task41_MoreThanZero.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anton\Documents\GEEK BRAINS\Work_GIT\HOMEWORK_3_6\task41_MoreThanZero\obj\Debug\net6.0\task41_MoreThanZero.AssemblyInfoInputs.cache
+C:\Users\anton\Documents\GEEK BRAINS\Work_GIT\HOMEWORK_3_6\task41_MoreThanZero\obj\Debug\net6.0\task41_MoreThanZero.AssemblyInfo.cs
+C:\Users\anton\Documents\GEEK BRAINS\Work_GIT\HOMEWORK_3_6\task41_MoreThanZero\obj\Debug\net6.0\task41_MoreThanZero.csproj.CoreCompileInputs.cache
+C:\Users\anton\Documents\GEEK BRAINS\Work_GIT\HOMEWORK_3_6\task41_MoreThanZero\obj\Debug\net6.0\task41_MoreThanZero.dll
+C:\Users\anton\Documents\GEEK BRAINS\Work_GIT\HOMEWORK_3_6\task41_MoreThanZero\obj\Debug\net6.0\refint\task41_MoreThanZero.dll
+C:\Users\anton\Documents\GEEK BRAINS\Work_GIT\HOMEWORK_3_6\task41_MoreThanZero\obj\Debug\net6.0\task41_MoreThanZero.pdb
+C:\Users\anton\Documents\GEEK BRAINS\Work_GIT\HOMEWORK_3_6\task41_MoreThanZero\obj\Debug\net6.0\task41_MoreThanZero.genruntimeconfig.cache
+C:\Users\anton\Documents\GEEK BRAINS\Work_GIT\HOMEWORK_3_6\task41_MoreThanZero\obj\Debug\net6.0\ref\task41_MoreThanZero.dll
