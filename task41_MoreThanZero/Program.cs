@@ -4,44 +4,61 @@
 */
 
 Console.Clear ();
-// Запрос и ввод данных
 
+// Запрос и ввод данных
 Console.Write ("Введите набор из M чисел с разделителем (,) : ");
 
 string set = Console.ReadLine () ?? "";
+
 // Разбиение данных по разделителю (,) и размещение в элементы массива
-
 string[] units = set.Split(',');
-// Вывод данных массива с новым разделителем
 
-Console.WriteLine($"Введено {units.Length} значений");
+// Подсказка Пользователю о количестве внесенных значений
+Console.WriteLine($"Введено {units.Length} значений,");
 
 // Проверка элементов введенного массива на число
+int [] reservArray = new int [units.Length]; // Резервный массив для чисел
 
-        int count = 0;
-        int check = 0;
-        int controlZero = 0;
- 
-        int []tempo = new int [units.Length];
+int j = 0;
+int count = 0;
+int check = 0;
+int controlZero = 0;
 
-    for (int i = 0; i < units.Length; i++)
-        {
-            if (int.TryParse (units[i], out tempo[i])) count +=1; 
-            else check +=1;
-            if (tempo[i]>0) controlZero +=1;
-        }
+Console.Write ("в том числе нечисловые значения : ");
 
-if (check > 0) Console.WriteLine ("Не все введенные значения являются числами");
+for (int i = 0; i<units.Length; i++) // Разделение чисел и нечисел
+{
+while(true)
+{
+    if (int.TryParse (units[i], out reservArray[j])) // Заполнение резервного массива
+    { 
+            j +=1;
+            count +=1;
+            break;
+    }
+    else
+    {
+            Console.Write (units[i] + ",");
+            check +=1;
+            break;
+
+    }
+}
+}
+Array.Resize (ref reservArray, count); // Сокращение длины резевного массива за счет изъятия нечисел
+
+// Вывод промежуточного результата
+Console.WriteLine();
 
 Console.Write ("Набор введенных чисел: ");
 
-//Array.Resize (ref tempo, count);
-
-foreach (int temp in tempo)
+foreach (int element in reservArray)
 {
-    Console.Write($"{temp},");
+    if (element >0 ) controlZero +=1; // Подсчет числа чисел больше 0
+    Console.Write($"{element},"); // Вывод на экран массива чисел
 }
-
+// Вывод результата
             Console.WriteLine();
             Console.WriteLine($"Среди {units.Length} введенных значений {count} чисел, из них {controlZero} имeют значение больше 0");
         
+
